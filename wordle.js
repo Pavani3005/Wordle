@@ -90,7 +90,7 @@ document.addEventListener("DOMContentLoaded", ()=> {
         });
         guessedWordsCount+=1;
         if(currentWord==word){
-            window.alert("Congratulations!!");
+            window.alert("Congratulations, You WON!!");
             return;
         }
         if(guessedWords.length==6){
