@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", ()=> {
     ];
     
     let word=wordList[Math.floor(Math.random()*wordList.length)];
-    console.log(word);
+    //console.log(word);
     let guessedWordsCount=0;
     const keys=document.querySelectorAll(".keyboard-row button");
    
